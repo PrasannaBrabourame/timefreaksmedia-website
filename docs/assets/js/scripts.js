@@ -1,6 +1,6 @@
 /*================
- Template Name: AgencyCo Digital Agency and Marketing
- Description: AgencyCo is digital agency and marketing template.
+ Template Name: TimeFreaksMedia Digital Agency and Marketing
+ Description: TimeFreaksMedia is digital agency and marketing template.
  Version: 1.0
  Author: https://themeforest.net/user/themetags
  =======================*/
