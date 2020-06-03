@@ -1504,3 +1504,21 @@ blockquote:before {
     color: #00438b;
     opacity: 0.8;
 }
+.table-responsive {
+    min-height: .01%;
+    overflow-x: auto;
+}
+.table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+.seo {
+    font-size: 21.55px;
+}
+.list-group-item.active {
+    z-index: 2;
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}

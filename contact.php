@@ -11,7 +11,24 @@ github: https://github.com/PrasannaBrabourame
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="shortcut icon" href="favicon.html" />
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <meta name="description"
         content="TimeFreaksMedia Digital Agency and Marketing Template. agency landing page template helps you easily create websites for your business, marketing landing page template form promotion and many more.">
@@ -54,14 +71,14 @@ github: https://github.com/PrasannaBrabourame
                             aria-label="Toggle navigation"><span class="ti-menu"></span></button>
                         <div class="collapse navbar-collapse main-menu" id="navbarSupportedContent">
                             <ul class="navbar-nav ml-auto">
-                                <li class="nav-item"><a class="nav-link page-scroll" href="/index.html">Home</a></li>
+                                <li class="nav-item"><a class="nav-link page-scroll" href="/index.php">Home</a></li>
                                 <li class="nav-item"><a class="nav-link page-scroll" href="/about-us.html">About</a>
                                 </li>
                                 <li class="nav-item"><a class="nav-link page-scroll" href="/services.html">Service</a>
                                 </li>
                                 <li class="nav-item"><a class="nav-link page-scroll" href="/pricing.html">Pricing</a>
                                 </li>
-                                <li class="nav-item"><a class="nav-link page-scroll" href="/contact.html">Contact</a>
+                                <li class="nav-item"><a class="nav-link page-scroll" href="/#">Contact</a>
                                 </li>
                             </ul>
                         </div>
@@ -76,12 +93,6 @@ github: https://github.com/PrasannaBrabourame
                             <div class="col-md-8 col-lg-7">
                                 <div class="page-header-content text-white text-center pt-5">
                                     <h1 class="text-white mb-1">Contact Us</h1>
-                                    <ul class="breadcrumb">
-                                        <li>
-                                            <a href="/">Home</a>
-                                        </li>
-                                        <li class="active">Pages</li>
-                                    </ul>
                                 </div>
                             </div>
                         </div>
@@ -99,52 +110,70 @@ github: https://github.com/PrasannaBrabourame
                                 </div>
                             </div>
                         </div>
+                        <?php 
+                            if($_POST){
+                                // the message
+                                $msg = "Thank you for your intrest. We will contact you soon!";
+                                
+                                // use wordwrap() if lines are longer than 70 characters
+                                $msg = wordwrap($msg,70);
+                                
+                                // send email
+                                mail($_POST['email'],"Time Freaks Media",$msg);
+                                echo "<h1>".$msg."</h1>";
+                                }
+                                ?>
                         <div class="row justify-content-between align-items-center">
                             <div class="col-md-6">
-                                <form method="POST" id="contactForm1" class="contact-us-form" novalidate="">
-                                    <div class="row">
-                                        <div class="col-sm-6 col-12">
-                                            <div class="form-group">
-                                                <input type="text" class="form-control" name="name"
-                                                    placeholder="Enter name" required="" value="">
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-6 col-12">
-                                            <div class="form-group">
-                                                <input type="text" name="company" size="40" class="form-control"
-                                                    id="company" placeholder="Your Company" value="">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-sm-6 col-12">
-                                            <div class="form-group">
-                                                <input type="email" class="form-control" name="email"
-                                                    placeholder="Enter email" required="" value="">
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-6 col-12">
-                                            <div class="form-group">
-                                                <input type="text" name="phone" class="form-control" id="phone"
-                                                    placeholder="Your Phone" value="">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-12">
-                                            <div class="form-group">
-                                                <textarea name="message" id="message" class="form-control" rows="7"
-                                                    cols="25" placeholder="Message"></textarea>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-sm-12 mt-3">
-                                            <button type="submit" class="btn primary-solid-btn" id="btnContactUs">Send
-                                                Message</button>
-                                        </div>
-                                    </div>
-                                </form>
+                            <form method="POST" id="contactForm1" class="contact-us-form" novalidate="" actions="index.php">
+                           <h5>Reach us quickly</h5>
+                           <div class="row">
+                              <div class="col-sm-6 col-12">
+                                 <div class="form-group"><input id="contact-name" type="text" class="form-control"
+                                       name="name" placeholder="Enter name" required="" value=""
+                                       onkeyup='validateName()'>
+                                    <span class='error-message' id='name-error'></span>
+                                 </div>
+                              </div>
+                              <div class="col-sm-6 col-12">
+                                 <div class="form-group"><input id="contact-email" type="email" class="form-control"
+                                       name="email" placeholder="Enter email" required="" value=""
+                                       onkeyup='validateEmail()'>
+                                    <span class='error-message' id='email-error'></span>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="row">
+                              <div class="col-sm-6 col-12">
+                                 <div class="form-group"><input id="contact-phone" type="text" name="phone"
+                                       class="form-control" id="phone" placeholder="Your Phone" value=""
+                                       onkeyup='validatePhone()'>
+                                    <span class='error-message' id='phone-error'></span>
+                                 </div>
+                              </div>
+                              <div class="col-sm-6 col-12">
+                                 <div class="form-group"><input id="contact-comany" type="text" name="company" size="40"
+                                       class="form-control" id="company" placeholder="Your Company" value=""
+                                       onkeyup="validateCompany()">
+                                    <span class='error-message' id='company-error'></span>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="row">
+                              <div class="col-12">
+                                 <div class="form-group"><textarea id='contact-message' name="message" id="message"
+                                       class="form-control" rows="7" cols="25" placeholder="Message"
+                                       onkeyup='validateMessage()'></textarea>
+                                    <span class='error-message' id='message-error'></span>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="row">
+                              <div class="col-sm-12 mt-3"><button type="submit" class="btn primary-solid-btn"
+                                    id="btnContactUs" onclick='return validateForm()'>Send Message</button>
+                                 <span class='error-message' id='submit-error'></span></div>
+                           </div>
+                        </form>
                                 <p class="form-message"></p>
                             </div>
                             <div class="col-md-5">
@@ -252,7 +281,7 @@ github: https://github.com/PrasannaBrabourame
                                             <li class="mb-2"><i class="ti-arrow-circle-right mr-2"></i> <a
                                                     href="/pricing.html">Pricing</a></li>
                                             <li class="mb-2"><i class="ti-arrow-circle-right mr-2"></i> <a
-                                                    href="/contact.html">Contact Us</a></li>
+                                                    href="/contact.php">Contact Us</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -286,7 +315,129 @@ github: https://github.com/PrasannaBrabourame
             </div>
         </div>
     </div>
+    <script>
+      function validateName() {
 
+         var name = document.getElementById('contact-name').value;
+
+         if (name.length == 0) {
+
+            producePrompt('Name is required', 'name-error', 'red')
+            return false;
+
+         }
+
+         if (!name.match(/^[A-Za-z]*\s{1}[A-Za-z]*$/)) {
+
+            producePrompt('First and last name, please.', 'name-error', 'red');
+            return false;
+
+         }
+
+         producePrompt('Valid', 'name-error', 'green');
+         return true;
+
+      }
+
+      function validateCompany() {
+
+         var name = document.getElementById('contact-comany').value;
+
+         if (name.length == 0) {
+
+            producePrompt('Comany Name is required', 'company-error', 'red')
+            return false;
+
+         }
+
+         producePrompt('Valid', 'company-error', 'green');
+         return true;
+
+      }
+
+      function validatePhone() {
+
+         var phone = document.getElementById('contact-phone').value;
+         var phoneno = /^\d{10}$/;
+         if (inputtxt.value.match(phoneno)) {
+            producePrompt('Valid', 'phone-error', 'green');
+            return true;
+         }
+         else {
+            producePrompt('Invalid Phone Number.', 'phone-error', 'red')
+            return false;
+         }
+      }
+
+      function validateEmail() {
+
+         var email = document.getElementById('contact-email').value;
+
+         if (email.length == 0) {
+
+            producePrompt('Email Invalid', 'email-error', 'red');
+            return false;
+
+         }
+
+         if (!email.match(/^[A-Za-z\._\-[0-9]*[@][A-Za-z]*[\.][a-z]{2,4}$/)) {
+
+            producePrompt('Email Invalid', 'email-error', 'red');
+            return false;
+
+         }
+
+         producePrompt('Valid', 'email-error', 'green');
+         return true;
+
+      }
+
+      function validateMessage() {
+         var message = document.getElementById('contact-message').value;
+         var required = 30;
+         var left = required - message.length;
+
+         if (left > 0) {
+            producePrompt(left + ' more characters required', 'message-error', 'red');
+            return false;
+         }
+
+         producePrompt('Valid', 'message-error', 'green');
+         return true;
+
+      }
+
+      function validateForm() {
+         if (!validateName() || !validatePhone() || !validateEmail() || !validateMessage() || !validateCompany()) {
+            jsShow('submit-error');
+            producePrompt('Please fix errors to submit.', 'submit-error', 'red');
+            setTimeout(function () { jsHide('submit-error'); }, 2000);
+            return false;
+         }
+         else {
+
+         }
+      }
+
+      function jsShow(id) {
+         document.getElementById(id).style.display = 'block';
+      }
+
+      function jsHide(id) {
+         document.getElementById(id).style.display = 'none';
+      }
+
+
+
+
+      function producePrompt(message, promptLocation, color) {
+
+         document.getElementById(promptLocation).innerHTML = message;
+         document.getElementById(promptLocation).style.color = color;
+
+
+      }
+   </script>
     <script src="assets/js/jquery-3.4.1.min.js"></script>
     <script src="assets/js/popper.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
