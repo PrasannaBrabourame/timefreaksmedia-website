@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="180px" height="180px" viewBox="0 0 180 180" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56.3 (81716) - https://sketch.com -->
+    <title>iot</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="70.1576199%" y1="-131.112908%" x2="43.6469119%" y2="107.081417%" id="linearGradient-1">
+            <stop stop-color="#856DD7" offset="0%"></stop>
+            <stop stop-color="#D1C4F8" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="31.3366344%" y1="-64.1815184%" x2="81.3200998%" y2="241.600572%" id="linearGradient-2">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#AAD7FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="50%" x2="100.000473%" y2="50%" id="linearGradient-3">
+            <stop stop-color="#6362D7" offset="0%"></stop>
+            <stop stop-color="#A67BFF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="iot" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(10.000000, 10.000000)">
+            <circle id="Oval" fill="#FAF7FF" cx="80" cy="80" r="80"></circle>
+            <g id="iconfinder_070_-_remote_home_3410613" transform="translate(19.552239, 18.000000)">
+                <g id="Icons" transform="translate(0.447761, 0.000000)" fill-rule="nonzero">
+                    <path d="M75.2542373,32.9288136 L75.2542373,87.4576271 L10.1694915,87.4576271 C9.04620051,87.4576271 8.13559322,86.5470197 8.13559322,85.4237288 L8.13559322,31.0779661 L39.1932203,2.60338983 C40.040388,1.85182607 41.3155442,1.85182607 42.1627119,2.60338983 L75.2542373,32.9288136 Z" id="Shape" fill="url(#linearGradient-1)"></path>
+                    <path d="M2.03389831,38.7030523 C1.19519692,38.7030523 0.442441387,38.1884028 0.138261785,37.4068054 C-0.165917817,36.6252077 0.0408601247,35.7370418 0.658983051,35.1701695 L37.8183051,1.10237288 C39.431293,-0.327283151 41.8524313,-0.345526389 43.4867797,1.05966102 L78.4189831,33.0772881 C78.954518,33.5699514 79.1865403,34.3108955 79.0276489,35.021014 C78.8687577,35.7311327 78.3430922,36.3025418 77.6486658,36.519997 C76.9542395,36.7374525 76.1965519,36.5679175 75.6610169,36.0752542 L40.7898305,4.10237288 C40.7288136,4.05152542 40.6332203,4.04745763 40.5152542,4.14508475 L3.40881356,38.1701695 C3.03329947,38.5135269 2.54272511,38.7036606 2.03389831,38.7030523 Z" id="Shape"></path>
+                    <rect id="Rectangle-path" fill="#616799" x="67.1186441" y="34.5762712" width="52.8813559" height="85.4237288" rx="3"></rect>
+                    <rect id="Rectangle-path" fill="url(#linearGradient-2)" x="67.1186441" y="46.779661" width="52.8813559" height="58.9830508"></rect>
+                    <path d="M22.3728814,56.9491525 L38.6440678,56.9491525 C39.7673587,56.9491525 40.6779661,57.8597599 40.6779661,58.9830508 L40.6779661,87.4576271 L20.3389831,87.4576271 L20.3389831,58.9830508 C20.3389831,57.8597599 21.2495904,56.9491525 22.3728814,56.9491525 Z" id="Shape" fill="#F7E28C"></path>
+                </g>
+                <g id="Outlines" stroke-linecap="round" transform="translate(2.447761, 2.000000)">
+                    <path d="M0,34.6472414 L37.17,0.569655172 C38.0174111,-0.182124555 39.2929337,-0.182124555 40.1403448,0.569655172 L75.0317241,32.5517241" id="Shape" fill="url(#linearGradient-3)" fill-rule="nonzero"></path>
+                    <path d="M12.2068966,23.4575862 L12.2068966,10.1724138" id="Shape" stroke="#42417D" stroke-width="2"></path>
+                    <rect id="Rectangle-path" stroke="#616799" stroke-width="2" stroke-linejoin="round" x="65.1034483" y="32.5517241" width="52.8965517" height="85.4482759" rx="3"></rect>
+                    <path d="M65.1034483,44.7586207 L118,44.7586207" id="Shape" stroke="#616799" stroke-width="2" stroke-linejoin="round"></path>
+                    <path d="M65.1034483,103.758621 L118,103.758621" id="Shape" stroke="#616799" stroke-width="2" stroke-linejoin="round"></path>
+                    <path d="M75.7275172,69.6118621 C84.47267,60.8861287 98.6307783,60.8861287 107.375931,69.6118621" id="Shape" stroke="#2F28AA" stroke-width="2" stroke-linejoin="round"></path>
+                    <path d="M81.4810345,75.3674138 C87.0464705,69.8140972 96.0569778,69.8140972 101.622414,75.3674138" id="Shape" stroke="#2F28AA" stroke-width="2" stroke-linejoin="round"></path>
+                    <path d="M87.2365862,81.120931 C89.6199819,78.7382551 93.4834663,78.7382551 95.8668621,81.120931" id="Shape" stroke="#2F28AA" stroke-width="2" stroke-linejoin="round"></path>
+                    <path d="M6.10344828,40.6896552 L6.10344828,83.4137931 C6.10344828,84.5374068 7.01431723,85.4482759 8.13793103,85.4482759 L65.1034483,85.4482759" id="Shape"></path>
+                    <path d="M20.3448276,54.9310345 L36.6206897,54.9310345 C37.7443034,54.9310345 38.6551724,55.8419035 38.6551724,56.9655172 L38.6551724,85.4482759 L18.3103448,85.4482759 L18.3103448,56.9655172 C18.3103448,55.8419035 19.2212138,54.9310345 20.3448276,54.9310345 Z" id="Shape" fill="#FADC14" fill-rule="nonzero"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
