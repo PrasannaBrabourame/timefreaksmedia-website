@@ -31,16 +31,10 @@ github: https://github.com/PrasannaBrabourame
 
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <meta name="description"
-        content="TimeFreaksMedia Digital Marketing">
-    <meta name="author" content="ThemeTags">
-    <meta property="og:site_name" content="" />
-    <meta property="og:site" content="" />
-    <meta property="og:title" content="" />
-    <meta property="og:description" content="" />
-    <meta property="og:image" content="" />
-    <meta property="og:url" content="" />
-    <meta property="og:type" content="article" />
-    <title>Time Freaks Media Digital Agency</title>
+        content="We provide professional services for grow your business and increases sell digital product. Increase sales by showing true dynamics of your website.">
+    <meta name="keywords" content="Digital agency Pondicherry,SMO Services Chennai,Web development company pondicherry,Video Promotion pondicherry,Ecommerce development company Pondicherry">
+    <meta name="author" content="Prasanna Brabourame">
+    <title>SEM SERVICE COMPANY PONDICHERRY | VIDEO PROMOTION PONDICHERRY - TFM</title>
     <link rel="manifest" href="manifest.json" />
     <link rel="icon" href="assets/./img/favicon.html" type="image/png" sizes="16x16">
     <link href="http://fonts.googleapis.com/css?family=Comfortaa:500,600,700%7COpen+Sans&amp;display=swap"

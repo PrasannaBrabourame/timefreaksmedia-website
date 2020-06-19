@@ -27,11 +27,12 @@ github: https://github.com/PrasannaBrabourame
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
 <meta name="theme-color" content="#ffffff">
+<meta name="keywords" content="CRM Services pondicherry,Digita Marketing company pondicherry,Web development company pondicherry,Software development company pondy,Web design services Pondicherry,Logo design Chennai,Website services Bangalore,Online web services pondicherry">
+  <meta name="author" content="Prasanna Brabourame">
 
    <meta name="viewport" content="width=device-width,initial-scale=1" />
    <meta name="description"
-      content="Time Freaks Media Digital Agency">
-   <meta name="author" content="ThemeTags">
+      content="We are Creative Agency Digital agency based in South India its covers all over the universe that loves to craft attractive experiences for the web.">
    <meta property="og:site_name" content="" />
    <meta property="og:site" content="" />
    <meta property="og:title" content="" />
@@ -39,7 +40,8 @@ github: https://github.com/PrasannaBrabourame
    <meta property="og:image" content="" />
    <meta property="og:url" content="" />
    <meta property="og:type" content="article" />
-   <title>Time Freaks Media Digital Agency</title>
+   <meta name="google-site-verification" content="N8va-_RpfXnQMJqyRUnMUsFHHAwOdtyX26Haui4KD40" />
+   <title>DIGITAL MARKETING AGENCY PONDICHERRY |  CRM SOFTWARE SERVICES PONDICHERRY – TFM</title>
    <link rel="manifest" href="manifest.json" />
    <link rel="icon" href="assets/./img/favicon.html" type="image/png" sizes="16x16">
    <link href="http://fonts.googleapis.com/css?family=Comfortaa:500,600,700%7COpen+Sans&amp;display=swap"
@@ -52,6 +54,15 @@ github: https://github.com/PrasannaBrabourame
    <link rel="stylesheet" href="assets/css/style.css">
    <link rel="stylesheet" href="assets/css/responsive.css">
    <link href="static/css/main.498d002a.chunk.css" rel="stylesheet">
+   <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-169055234-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-169055234-1');
+</script>
 </head>
 
 <body>
