@@ -78,12 +78,13 @@ github: https://github.com/PrasannaBrabourame
                      aria-label="Toggle navigation"><span class="ti-menu"></span></button>
                   <div class="collapse navbar-collapse main-menu" id="navbarSupportedContent">
                      <ul class="navbar-nav ml-auto">
-                        <li class="nav-item"><a class="nav-link page-scroll" href="/#">Home</a></li>
-                        <li class="nav-item"><a class="nav-link page-scroll" href="/about-us.html">About</a></li>
-                        <li class="nav-item"><a class="nav-link page-scroll" href="/services.html">Digital Media</a></li>
-                        <li class="nav-item"><a class="nav-link page-scroll" href="/technology.html">Technology Services</a></li>
-                        <li class="nav-item"><a class="nav-link page-scroll" href="/pricing.html">Pricing</a></li>
-                        <li class="nav-item"><a class="nav-link page-scroll" href="/contact.html">Contact</a></li>
+                     <li class="nav-item"><a class="nav-link page-scroll" href="/index.php">Home</a></li>
+                                <li class="nav-item"><a class="nav-link page-scroll" href="/about-us.html">About</a></li>
+                                <li class="nav-item"><a class="nav-link page-scroll" href="/#">Digital Media</a></li>
+                                <li class="nav-item"><a class="nav-link page-scroll" href="/technology.html">Technology Services</a></li>
+                                <li class="nav-item"><a class="nav-link page-scroll" href="/courses.html">Certification Courses</a></li>
+                                <li class="nav-item"><a class="nav-link page-scroll" href="/pricing.html">Pricing</a></li>
+                                <li class="nav-item"><a class="nav-link page-scroll" href="/contact.php">Contact</a></li>
                      </ul>
                   </div>
                </div>

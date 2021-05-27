@@ -872,7 +872,18 @@ select.form-control.has-value{
     right: 0;
     left: auto;
 }
+
+.switchable-right.switchable-content div[class*='col-']:first-child {
+    float: left;
+    left: 0;
+    right: auto;
+}
+
 .switchable > div[class*='col-'] {
+    padding: 0;
+}
+
+.switchable-right > div[class*='col-'] {
     padding: 0;
 }
 
@@ -899,6 +910,11 @@ select.form-control.has-value{
     right: auto;
 }
 
+.switchable-right div[class*='col-']:first-child {
+    float: right;
+    left: auto;
+}
+
 @media (max-width: 767px){
     .switchable .imageblock-section-img[class*='col-'] {
         float: none !important;
@@ -908,6 +924,17 @@ select.form-control.has-value{
 .switchable > div[class*='col-'] {
     padding: 0;
 }
+
+@media (max-width: 767px){
+    .switchable-right .imageblock-section-img[class*='col-'] {
+        float: none !important;
+    }
+}
+
+.switchable-right > div[class*='col-'] {
+    padding: 0;
+}
+
 @media (max-width: 767px){
     .imageblock-section .imageblock-section-img {
         position: relative;
@@ -924,6 +951,14 @@ select.form-control.has-value{
     }
 }
 
+@media (min-width: 768px){
+    .switchable-right .container > .row {
+        flex-flow: row-reverse;
+    }
+    .switchable-right.switchable-content .container > .row {
+        flex-flow: row;
+    }
+}
 .single-card {
     width: calc(50% - 25px);
     margin-left: 25px;
