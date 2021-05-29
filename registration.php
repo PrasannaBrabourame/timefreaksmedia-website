@@ -30,15 +30,13 @@ github: https://github.com/PrasannaBrabourame
     <meta name="theme-color" content="#ffffff">
 
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <meta name="description"
-        content="We provide professional services for grow your business and increases sell digital product. Increase sales by showing true dynamics of your website.">
+    <meta name="description" content="We provide professional services for grow your business and increases sell digital product. Increase sales by showing true dynamics of your website.">
     <meta name="keywords" content="Digital agency Pondicherry,SMO Services Chennai,Web development company pondicherry,Video Promotion pondicherry,Ecommerce development company Pondicherry">
     <meta name="author" content="Prasanna Brabourame">
     <title>SEM SERVICE COMPANY PONDICHERRY | VIDEO PROMOTION PONDICHERRY - TFM</title>
     <link rel="manifest" href="manifest.json" />
     <link rel="icon" href="assets/./img/favicon.html" type="image/png" sizes="16x16">
-    <link href="http://fonts.googleapis.com/css?family=Comfortaa:500,600,700%7COpen+Sans&amp;display=swap"
-        rel="stylesheet">
+    <link href="http://fonts.googleapis.com/css?family=Comfortaa:500,600,700%7COpen+Sans&amp;display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/magnific-popup.css">
     <link rel="stylesheet" href="assets/css/themify-icons.css">
@@ -58,11 +56,7 @@ github: https://github.com/PrasannaBrabourame
             <header class="header">
                 <nav class="navbar navbar-expand-lg fixed-top bg-transparent">
                     <div class="container">
-                        <a class="navbar-brand" href="/"><img src="./img/logo_white.png" width="75" alt="logo"
-                                class="img-fluid"></a><button class="navbar-toggler" type="button"
-                            data-toggle="collapse" data-target="#navbarSupportedContent"
-                            aria-controls="navbarSupportedContent" aria-expanded="false"
-                            aria-label="Toggle navigation"><span class="ti-menu"></span></button>
+                        <a class="navbar-brand" href="/"><img src="./img/logo_white.png" width="75" alt="logo" class="img-fluid"></a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="ti-menu"></span></button>
                         <div class="collapse navbar-collapse main-menu" id="navbarSupportedContent">
                             <ul class="navbar-nav ml-auto">
                                 <li class="nav-item"><a class="nav-link page-scroll" href="/index.php">Home</a></li>
@@ -82,8 +76,7 @@ github: https://github.com/PrasannaBrabourame
                 </nav>
             </header>
             <div class="main">
-                <section class="hero-section background-img ptb-100"
-                    style="background: url(&quot;./img/hero-bg-1.jpg&quot;) center center no-repeat fixed;">
+                <section class="hero-section background-img ptb-100" style="background: url(&quot;./img/hero-bg-1.jpg&quot;) center center no-repeat fixed;">
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-md-8 col-lg-7">
@@ -108,54 +101,52 @@ github: https://github.com/PrasannaBrabourame
                         </div>
                         <div class="row justify-content-between align-items-center">
                             <div class="col-md-6">
-                                <form method="POST" id="contactForm1" class="contact-us-form" novalidate=""
-                                    actions="<?php echo $_SERVER['PHP_SELF']; ?>">
+                                <form method="POST" id="contactForm1" class="contact-us-form" novalidate="" actions="<?php echo $_SERVER['PHP_SELF']; ?>">
                                     <h5>Reach us quickly</h5>
                                     <div class="row">
                                         <div class="col-sm-6 col-12">
-                                            <div class="form-group"><input id="contact-name" type="text"
-                                                    class="form-control" name="name" placeholder="Enter name"
-                                                    required="" value="" onkeyup='validateName()'>
+                                            <div class="form-group"><input id="contact-name" type="text" class="form-control" name="name" placeholder="Enter Your name" required="" value="" onkeyup='validateName()'>
                                                 <span class='error-message' id='name-error'></span>
                                             </div>
                                         </div>
                                         <div class="col-sm-6 col-12">
-                                            <div class="form-group"><input id="contact-email" type="email"
-                                                    class="form-control" name="email" placeholder="Enter email"
-                                                    required="" value="" onkeyup='validateEmail()'>
+                                            <div class="form-group"><input id="contact-email" type="email" class="form-control" name="email" placeholder="Enter Your email" required="" value="" onkeyup='validateEmail()'>
                                                 <span class='error-message' id='email-error'></span>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="row">
                                         <div class="col-sm-6 col-12">
-                                            <div class="form-group"><input id="contact-phone" type="text" name="phone"
-                                                    class="form-control" id="phone" placeholder="Your Phone" value=""
-                                                    onkeyup='validatePhone()'>
+                                            <div class="form-group"><input id="contact-phone" type="text" name="phone" class="form-control" id="phone" placeholder="Enter Your Phone" value="" onkeyup='validatePhone()'>
                                                 <span class='error-message' id='phone-error'></span>
                                             </div>
                                         </div>
                                         <div class="col-sm-6 col-12">
-                                            <div class="form-group"><input id="contact-comany" type="text"
-                                                    name="company" size="40" class="form-control" id="company"
-                                                    placeholder="Your Company" value="" onkeyup="validateCompany()">
-                                                <span class='error-message' id='company-error'></span>
+                                            <div class="form-group"><input id="contact-location" type="text" name="location" size="40" class="form-control" id="location" placeholder="Enter Your Location" value="" onkeyup="validateLocation()">
+                                                <span class='error-message' id='location-error'></span>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="row">
-                                        <div class="col-12">
-                                            <div class="form-group"><textarea id='contact-message' name="message"
-                                                    id="message" class="form-control" rows="7" cols="25"
-                                                    placeholder="Message" onkeyup='validateMessage()'></textarea>
+                                        <div class="col-sm-6 col-12">
+                                            <div class="form-group checkbox-wrapper"><input id='checkbox-rj-vj' name="checkbox-rj-vj" type="checkbox" class="form-control checkbox" value="rjvj" rows="7" cols="25" placeholder="checkbox-rj-vj"><label for="checkbox-rj-vj" class="checkbox-label">RJ & VJ Workshop</label>
                                                 <span class='error-message' id='message-error'></span>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="row">
-                                        <div class="col-sm-12 mt-3"><button type="submit" class="btn primary-solid-btn"
-                                                id="btnContactUs" onclick='return validateForm()'>Send Message</button>
-                                            <span class='error-message' id='submit-error'></span></div>
+                                        <div class="col-sm-6 col-12">
+                                            <div class="form-group checkbox-wrapper"><input id='checkbox-photo' name="checkbox-photo" type="checkbox" class="form-control checkbox" rows="7" cols="25" placeholder="checkbox-photo">
+                                                <label for="checkbox-photo" class="checkbox-label">Photography
+                                                    Workshop</label>
+                                                <span class='error-message' id='message-error'></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-12 mt-3"><button type="submit" class="btn primary-solid-btn" id="btnContactUs" onclick='return validateForm()'>Send Message</button>
+                                            <span class='error-message' id='submit-error'></span>
+                                        </div>
                                     </div>
                                 </form>
                                 <p class="form-message"></p>
@@ -204,10 +195,7 @@ github: https://github.com/PrasannaBrabourame
                     </div>
                 </section>
                 <div class="google-map">
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.202044023641!2d80.18791811527522!3d13.086384315888763!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a526406e0b2e4f7%3A0x13bd6e9abe9f8351!2sFloor%2C%205th%20Block%2C%205%2C%201st%20St%2C%20Nungapakkam%2C%20Collector%20Nagar%2C%20Kalaivanar%20Colony%2C%20Chennai%2C%20Tamil%20Nadu%20600050!5e0!3m2!1sen!2sin!4v1590955900690!5m2!1sen!2sin"
-                        width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""
-                        aria-hidden="false" tabindex="0"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.202044023641!2d80.18791811527522!3d13.086384315888763!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a526406e0b2e4f7%3A0x13bd6e9abe9f8351!2sFloor%2C%205th%20Block%2C%205%2C%201st%20St%2C%20Nungapakkam%2C%20Collector%20Nagar%2C%20Kalaivanar%20Colony%2C%20Chennai%2C%20Tamil%20Nadu%20600050!5e0!3m2!1sen!2sin!4v1590955900690!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                 </div>
             </div>
             <div>
@@ -217,21 +205,14 @@ github: https://github.com/PrasannaBrabourame
                             <div class="row justify-content-between">
                                 <div class="col-lg-4 mb-4 mb-lg-0">
                                     <div class="footer-nav-wrap">
-                                        <img src="./img/logo_white.png" alt="footer logo" width="180"
-                                            class="img-fluid mb-3">
+                                        <img src="./img/logo_white.png" alt="footer logo" width="180" class="img-fluid mb-3">
                                         <p>We are Creative Agency Digital agency based in South India its covers all
                                             over the universe that loves to craft attractive experiences for the web.
                                         </p>
                                         <ul class="list-inline">
-                                            <li class="list-inline-item"><span
-                                                    class="ti-arrow-circle-right mr-2"></span> <a
-                                                    href="/privacy.html">Privacy policy</a></li>
-                                            <li class="list-inline-item"><span
-                                                    class="ti-arrow-circle-right mr-2"></span> <a
-                                                    href="/terms.html">Terms and Conditions</a></li>
-                                            <li class="list-inline-item"><span
-                                                    class="ti-arrow-circle-right mr-2"></span> <a
-                                                    href="/disclaimer.html">
+                                            <li class="list-inline-item"><span class="ti-arrow-circle-right mr-2"></span> <a href="/privacy.html">Privacy policy</a></li>
+                                            <li class="list-inline-item"><span class="ti-arrow-circle-right mr-2"></span> <a href="/terms.html">Terms and Conditions</a></li>
+                                            <li class="list-inline-item"><span class="ti-arrow-circle-right mr-2"></span> <a href="/disclaimer.html">
                                                     Disclaimer</a></li>
                                         </ul>
                                     </div>
@@ -240,16 +221,11 @@ github: https://github.com/PrasannaBrabourame
                                     <div class="footer-nav-wrap">
                                         <h5 class="mb-3">Our location</h5>
                                         <ul class="list-unstyled">
-                                            <li class="mb-2"><span
-                                                    class="ti-arrow-circle-right mr-2"></span><strong>Address:</strong>
+                                            <li class="mb-2"><span class="ti-arrow-circle-right mr-2"></span><strong>Address:</strong>
                                                 5/172, 1st Floor,<br> 5th Block,<br> Mugapair East,<br> Chennai
                                                 600037<br></li>
-                                            <li class="mb-2"><span
-                                                    class="ti-arrow-circle-right mr-2"></span><strong>Phone:</strong> <a
-                                                    href="tel:+917305024764"> +91 73050 24764</a></li>
-                                            <li class="mb-2"><span
-                                                    class="ti-arrow-circle-right mr-2"></span><strong>Email:</strong><a
-                                                    href="mailto:hello@timefreaksmedia.com">
+                                            <li class="mb-2"><span class="ti-arrow-circle-right mr-2"></span><strong>Phone:</strong> <a href="tel:+917305024764"> +91 73050 24764</a></li>
+                                            <li class="mb-2"><span class="ti-arrow-circle-right mr-2"></span><strong>Email:</strong><a href="mailto:hello@timefreaksmedia.com">
                                                     hello@timefreaksmedia.com</a></li>
                                         </ul>
                                     </div>
@@ -258,14 +234,10 @@ github: https://github.com/PrasannaBrabourame
                                     <div class="footer-nav-wrap">
                                         <h5 class="mb-3">Quick links</h5>
                                         <ul class="list-unstyled">
-                                            <li class="mb-2"><i class="ti-arrow-circle-right mr-2"></i> <a
-                                                    href="/about-us.html">About Us</a></li>
-                                            <li class="mb-2"><i class="ti-arrow-circle-right mr-2"></i> <a
-                                                    href="/services.html">Our Services</a></li>
-                                            <li class="mb-2"><i class="ti-arrow-circle-right mr-2"></i> <a
-                                                    href="/pricing.html">Pricing</a></li>
-                                            <li class="mb-2"><i class="ti-arrow-circle-right mr-2"></i> <a
-                                                    href="/contact.html">Contact Us</a></li>
+                                            <li class="mb-2"><i class="ti-arrow-circle-right mr-2"></i> <a href="/about-us.html">About Us</a></li>
+                                            <li class="mb-2"><i class="ti-arrow-circle-right mr-2"></i> <a href="/services.html">Our Services</a></li>
+                                            <li class="mb-2"><i class="ti-arrow-circle-right mr-2"></i> <a href="/pricing.html">Pricing</a></li>
+                                            <li class="mb-2"><i class="ti-arrow-circle-right mr-2"></i> <a href="/contact.html">Contact Us</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -281,15 +253,11 @@ github: https://github.com/PrasannaBrabourame
                                 </div>
                                 <div class="col-md-6 col-lg-7">
                                     <ul class="social-list list-inline list-unstyled text-md-right">
-                                        <li class="list-inline-item"><a href="https://www.facebook.com/TimeFreaksMedia/"
-                                                target="_blank" title="Facebook"><span class="ti-facebook"></span></a>
+                                        <li class="list-inline-item"><a href="https://www.facebook.com/TimeFreaksMedia/" target="_blank" title="Facebook"><span class="ti-facebook"></span></a>
                                         </li>
-                                        <li class="list-inline-item"><a href="https://twitter.com/TimeFreaksMedia"
-                                                target="_blank" title="Twitter"><span class="ti-twitter"></span></a>
+                                        <li class="list-inline-item"><a href="https://twitter.com/TimeFreaksMedia" target="_blank" title="Twitter"><span class="ti-twitter"></span></a>
                                         </li>
-                                        <li class="list-inline-item"><a
-                                                href="https://www.instagram.com/timefreaksmedia/" target="_blank"
-                                                title="Instagram"><span class="ti-instagram"></span></a></li>
+                                        <li class="list-inline-item"><a href="https://www.instagram.com/timefreaksmedia/" target="_blank" title="Instagram"><span class="ti-instagram"></span></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -300,7 +268,7 @@ github: https://github.com/PrasannaBrabourame
         </div>
     </div>
     <script>
-         function validateName() {
+        function validateName() {
             var name = document.getElementById('contact-name').value;
             if (name.length == 0) {
                 producePrompt('Name is required', 'name-error', 'red')
@@ -366,32 +334,34 @@ github: https://github.com/PrasannaBrabourame
             if (!validateName() || !validatePhone() || !validateEmail() || !validateMessage() || !validateCompany()) {
                 jsShow('submit-error');
                 producePrompt('Please fix errors to submit.', 'submit-error', 'red');
-                setTimeout(function () { jsHide('submit-error'); }, 2000);
+                setTimeout(function() {
+                    jsHide('submit-error');
+                }, 2000);
                 return false;
-            }
-            else {
+            } else {
                 <?php
-            if ($_SERVER["REQUEST_METHOD"] == "POST") {
-               $name = $_POST['name'];
-               $to = $_POST['email'];
-               $subject = "Registration for Workshop";
-               $message = "<b>Request a Call details</b>";
-               $message .= "<h3>Name :" . $name . "</h3>";
-               $message .= "<h3>Email :" . $_POST['email'] . "</h3>";
-               $message .= "<h3>Mobile :" . $_POST['phone'] . "</h3>";
-               $message .= "<h3>Company :" . $_POST['company'] . "</h3>";
-               $message .= "<h3>Message :" . $_POST['message'] . "</h3>";
-               $header = "From:udhayan.in@gmail.com \r\n";
-               $header .= "MIME-Version: 1.0\r\n";
-               $header .= "Content-type: text/html\r\n";
-               $retval = mail($to, $subject, $message, $header);
-               if ($retval == true) {
-                  header('location:http://www.timefreaksmedia.com/courses.html?status=success');
-               } else {
-                  echo "0";
-               }
-            }
-            ?>
+                if ($_SERVER["REQUEST_METHOD"] == "POST") {
+                    $name = $_POST['name'];
+                    $to = $_POST['email'];
+                    $subject = "Registration for Workshop";
+                    $message = "<b>Request a Call details</b>";
+                    $message .= "<h3>Name :" . $name . "</h3>";
+                    $message .= "<h3>Email :" . $_POST['email'] . "</h3>";
+                    $message .= "<h3>Mobile :" . $_POST['phone'] . "</h3>";
+                    $message .= "<h3>Location :" . $_POST['location'] . "</h3>";
+                    $message .= "<h3>RJVJ Workshop :" . $_POST['checkbox-rj-vj'] . "</h3>";
+                    $message .= "<h3>Photography Workshop :" . $_POST['checkbox-photo'] . "</h3>";
+                    $header = "From:udhayan.in@gmail.com \r\n";
+                    $header .= "MIME-Version: 1.0\r\n";
+                    $header .= "Content-type: text/html\r\n";
+                    $retval = mail($to, $subject, $message, $header);
+                    if ($retval == true) {
+                        header('location:http://www.timefreaksmedia.com/courses.html?status=success');
+                    } else {
+                        echo "0";
+                    }
+                }
+                ?>
             }
         }
 
@@ -421,7 +391,81 @@ github: https://github.com/PrasannaBrabourame
     <script src="assets/js/jquery.easing.min.js"></script>
     <script src="assets/js/owl.carousel.min.js"></script>
     <script src="assets/js/scripts.js"></script>
-    <script>!function (a) { function e(e) { for (var r, t, n = e[0], o = e[1], u = e[2], p = 0, l = []; p < n.length; p++)t = n[p], Object.prototype.hasOwnProperty.call(i, t) && i[t] && l.push(i[t][0]), i[t] = 0; for (r in o) Object.prototype.hasOwnProperty.call(o, r) && (a[r] = o[r]); for (s && s(e); l.length;)l.shift()(); return c.push.apply(c, u || []), f() } function f() { for (var e, r = 0; r < c.length; r++) { for (var t = c[r], n = !0, o = 1; o < t.length; o++) { var u = t[o]; 0 !== i[u] && (n = !1) } n && (c.splice(r--, 1), e = p(p.s = t[0])) } return e } var t = {}, i = { 1: 0 }, c = []; function p(e) { if (t[e]) return t[e].exports; var r = t[e] = { i: e, l: !1, exports: {} }; return a[e].call(r.exports, r, r.exports, p), r.l = !0, r.exports } p.m = a, p.c = t, p.d = function (e, r, t) { p.o(e, r) || Object.defineProperty(e, r, { enumerable: !0, get: t }) }, p.r = function (e) { "undefined" != typeof Symbol && Symbol.toStringTag && Object.defineProperty(e, Symbol.toStringTag, { value: "Module" }), Object.defineProperty(e, "__esModule", { value: !0 }) }, p.t = function (r, e) { if (1 & e && (r = p(r)), 8 & e) return r; if (4 & e && "object" == typeof r && r && r.__esModule) return r; var t = Object.create(null); if (p.r(t), Object.defineProperty(t, "default", { enumerable: !0, value: r }), 2 & e && "string" != typeof r) for (var n in r) p.d(t, n, function (e) { return r[e] }.bind(null, n)); return t }, p.n = function (e) { var r = e && e.__esModule ? function () { return e.default } : function () { return e }; return p.d(r, "a", r), r }, p.o = function (e, r) { return Object.prototype.hasOwnProperty.call(e, r) }, p.p = "index.html"; var r = window.webpackJsonpapptech = window.webpackJsonpapptech || [], n = r.push.bind(r); r.push = e, r = r.slice(); for (var o = 0; o < r.length; o++)e(r[o]); var s = n; f() }([])</script>
+    <script>
+        ! function(a) {
+            function e(e) {
+                for (var r, t, n = e[0], o = e[1], u = e[2], p = 0, l = []; p < n.length; p++) t = n[p], Object.prototype.hasOwnProperty.call(i, t) && i[t] && l.push(i[t][0]), i[t] = 0;
+                for (r in o) Object.prototype.hasOwnProperty.call(o, r) && (a[r] = o[r]);
+                for (s && s(e); l.length;) l.shift()();
+                return c.push.apply(c, u || []), f()
+            }
+
+            function f() {
+                for (var e, r = 0; r < c.length; r++) {
+                    for (var t = c[r], n = !0, o = 1; o < t.length; o++) {
+                        var u = t[o];
+                        0 !== i[u] && (n = !1)
+                    }
+                    n && (c.splice(r--, 1), e = p(p.s = t[0]))
+                }
+                return e
+            }
+            var t = {},
+                i = {
+                    1: 0
+                },
+                c = [];
+
+            function p(e) {
+                if (t[e]) return t[e].exports;
+                var r = t[e] = {
+                    i: e,
+                    l: !1,
+                    exports: {}
+                };
+                return a[e].call(r.exports, r, r.exports, p), r.l = !0, r.exports
+            }
+            p.m = a, p.c = t, p.d = function(e, r, t) {
+                p.o(e, r) || Object.defineProperty(e, r, {
+                    enumerable: !0,
+                    get: t
+                })
+            }, p.r = function(e) {
+                "undefined" != typeof Symbol && Symbol.toStringTag && Object.defineProperty(e, Symbol.toStringTag, {
+                    value: "Module"
+                }), Object.defineProperty(e, "__esModule", {
+                    value: !0
+                })
+            }, p.t = function(r, e) {
+                if (1 & e && (r = p(r)), 8 & e) return r;
+                if (4 & e && "object" == typeof r && r && r.__esModule) return r;
+                var t = Object.create(null);
+                if (p.r(t), Object.defineProperty(t, "default", {
+                        enumerable: !0,
+                        value: r
+                    }), 2 & e && "string" != typeof r)
+                    for (var n in r) p.d(t, n, function(e) {
+                        return r[e]
+                    }.bind(null, n));
+                return t
+            }, p.n = function(e) {
+                var r = e && e.__esModule ? function() {
+                    return e.default
+                } : function() {
+                    return e
+                };
+                return p.d(r, "a", r), r
+            }, p.o = function(e, r) {
+                return Object.prototype.hasOwnProperty.call(e, r)
+            }, p.p = "index.html";
+            var r = window.webpackJsonpapptech = window.webpackJsonpapptech || [],
+                n = r.push.bind(r);
+            r.push = e, r = r.slice();
+            for (var o = 0; o < r.length; o++) e(r[o]);
+            var s = n;
+            f()
+        }([])
+    </script>
     <script src="static/js/2.2616dd5f.chunk.js"></script>
     <!--  <script src="static/js/main.ac61cccd.chunk.js"></script> -->
 </body>
